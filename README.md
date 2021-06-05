@@ -1,4 +1,4 @@
-# Rotating Tor proxy
+# Rotoxy
 
 A rotating tor proxy service that starts a configurable number of tor socks proxies and expose them under one reverse proxy (http).
 The tor proxy socks proxies are randomly selected by the reverse proxy
