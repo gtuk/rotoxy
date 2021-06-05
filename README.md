@@ -18,3 +18,4 @@ Download the latest release from github
 ### TODOS
 * Tests
 * Better documentation
+* Docker image
