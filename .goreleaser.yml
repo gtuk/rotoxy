@@ -24,6 +24,17 @@ archives:
     format_overrides:
       - goos: windows
         format: zip
+dockers:
+  - goos: linux
+    goarch: amd64
+    ids: ["rotoxy"]
+    image_templates:
+      - "gtuk/rotoxy:{{ .Major }}.{{ .Minor }}.{{ .Patch }}"
+      - "gtuk/rotoxy:{{ .Major }}.{{ .Minor }}"
+      - "gtuk/rotoxy:{{ .Major }}"
+      - "gtuk/rotoxy:latest"
+    use_buildx: true
+    dockerfile: Dockerfile
 checksum:
   name_template: 'checksums.txt'
 snapshot:

@@ -1,7 +1,7 @@
 # Rotoxy
 
 A rotating tor proxy service that starts a configurable number of tor socks proxies and expose them under one reverse proxy (http).
-The tor proxy socks proxies are randomly selected by the reverse proxy
+The tor socks proxies are randomly selected by the reverse proxy
 
 ### Prerequisites
 In order to use the tool you need have Tor installed on the machine
