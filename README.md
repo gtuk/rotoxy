@@ -16,8 +16,8 @@ Download the latest release from github
 ```
 ### Docker
 ```bash
-docker run -p 8080:8080 gtuk/rotoxy:0.2.0 # Run with default parameters
-docker run -p 8088:8088 gtuk/rotoxy:0.2.0 --tors 1 --port 8080 --circuitInterval 30 # Run with custom parameters
+docker run -p 8080:8080 gtuk/rotoxy:latest # Run with default parameters
+docker run -p 8088:8088 gtuk/rotoxy:latest --tors 1 --port 8080 --circuitInterval 30 # Run with custom parameters
 ```
 
 ### TODOS
