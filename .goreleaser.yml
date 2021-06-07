@@ -30,8 +30,6 @@ dockers:
     ids: ["rotoxy"]
     image_templates:
       - "gtuk/rotoxy:{{ .Major }}.{{ .Minor }}.{{ .Patch }}"
-      - "gtuk/rotoxy:{{ .Major }}.{{ .Minor }}"
-      - "gtuk/rotoxy:{{ .Major }}"
       - "gtuk/rotoxy:latest"
     use_buildx: true
     dockerfile: Dockerfile
