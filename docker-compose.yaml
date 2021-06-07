@@ -1,7 +1,0 @@
-version: "3.1"
-services:
-  app:
-    build:
-      context: ./dist/goreleaserdocker024990387
-      dockerfile: Dockerfile
-    command: "-tors=3"
